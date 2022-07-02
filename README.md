@@ -1,6 +1,6 @@
 ## About This Repository
 
-cc 整了一个 szuer 课程资料的 repo，但都是 CSSE 的课 or 转 CS 的攻略。其实之前整理过部分课程，但是大一的时候没刻意保存文件，所以很多课程处于 unfinished 的状态。如果你想给这个 repo 贡献自己的 report or 心得，欢迎发邮件到[1655853551@qq.com](mailto:1655853551@qq.com)，视情况添加 collaborator。
+cc 之前整了一个 szuer 课程资料的 repo：[SZU-resource](https://github.com/kalila-cc/SZU-resources)，但都是 CSSE 的课 or 转 CS 的攻略。其实之前整理过部分课程，但是大一的时候没刻意保存文件，所以很多课程处于 unfinished 的状态。如果你想给这个 repo 贡献自己的 report or 心得，欢迎发邮件到 [1655853551@qq.com](mailto:1655853551@qq.com)，视情况添加 collaborator。
 
 ### About Courses 👇
 
@@ -14,7 +14,7 @@ cc 整了一个 szuer 课程资料的 repo，但都是 CSSE 的课 or 转 CS 的
 
 ### Contribute
 
-> 需要拥有 `Github` 账号。另外，如果实在不会操作但是又希望贡献自己的资源的，可以先在本地或云盘整理好文件结构（参照下述[**规范**](https://github.com/abinea/SZU-CEIE/blob/main/README.md#Standard)进行整理）后，发送至邮箱 [1655853551@qq.com](mailto:1655853551@qq.com)，作者有空将更新该部分资源至该仓库。
+> 需要拥有 `Github` 账号。另外，如果实在不会操作但是又希望贡献自己的资源的，可以先在本地或云盘整理好文件结构（参照下述 [**规范**](https://github.com/abinea/SZU-CEIE/blob/main/README.md#Standard) 进行整理）后，发送至邮箱 [1655853551@qq.com](mailto:1655853551@qq.com)，作者有空将更新该部分资源至该仓库。
 
 -   在该仓库页面找到 `Fork` 并点击，在新页面左上角的仓库名下面可以看到 `forked from xxx` ，说明已经 `fork` 成功
 -   进入特定的需要上传文件的文件夹路径（如要上传的路径是 `foo/bar.txt` 则进入 `foo` 文件夹）
