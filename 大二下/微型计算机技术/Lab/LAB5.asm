@@ -1,0 +1,43 @@
+ASSUME CS:CODE, DS:DATA
+DATA SEGMENT
+    DB 220H DUP (0)
+    ENCODE: DB 0C0H, 0F9H, 0A4H, 0B0H, 99H, 92H, 82H, 0F8H, 80H, 90H, 88H, 82H, 0C6H, 0A1H, 86H, 8EH
+DATA ENDS
+CODE SEGMENT
+START:
+    MOV AX, DATA
+    MOV DS, AX
+    MOV AL, 10001001B
+    MOV DX, 13H
+    OUT DX, AL
+    
+    
+    IN AL, 12H
+    MOV [200H], AL
+    MOV BL, AL       
+    SHR BL, 04H
+    SHL BL, 04H
+    
+    SUB AL, BL    ;Get high 4 bits
+    SHR BL, 04H   ;Get low 4 bits and align it
+    
+11H_OUT:
+    MOV SI, ENCODE
+    MOV AH, 00H
+    ADD SI, AX
+    MOV AL, [SI]
+    OUT 11H, AL
+       
+10H_OUT:       
+    MOV SI, ENCODE
+    MOV BH, 00H
+    ADD SI, BX
+    MOV AL, [SI]
+    OUT 10H, AL
+
+
+ENDLESS:
+    JMP ENDLESS
+
+CODE ENDS
+END START
